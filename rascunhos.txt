@@ -1,0 +1,178 @@
+ style do login
+        body{
+        
+        }
+        .login{
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 50px;
+            border-radius: 15px;
+            color: white    ;
+        }
+        .l1{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+        .b1{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .b1:hover{
+            background-color: deepskyblue;
+        }
+        .b2{
+            background-color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        } .b2:hover{
+            background-color: red;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+
+        style antigo do form_clientes
+
+          body{font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, rgb( 10, 147, 220), rgb( 17, 54, 71));
+        }
+        .box{
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 15px;
+            width: 20%;
+        }
+        fieldset{
+            border: 3px solid dodgerblue;
+        }
+        legend{
+            border: 1px solid dodgerblue;
+            padding: 10px;
+            text-align: center;
+            background-color: dodgerblue;
+            border-radius: 8px;
+            color: white;}
+            .inputbox{
+                position: relative;
+            }
+            .inputuser{
+                background: none;
+                border: none;
+                border-bottom: 1px solid white;
+                outline: none;
+                color: white;
+                font-size: 15px;
+                width: 100%;
+                letter-spacing: 2px;
+            }
+            .labelinput{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                pointer-events: none;
+                transition: .5s;
+            }
+            .inputuser:focus~ .labelinput,
+            .inputuser:valid~ .labelinput{
+                top: -20px;
+                font-size: 12px;
+                color: dodgerblue;
+            }
+            #submit{
+                background-image: linear-gradient(to right, rgb( 10, 147, 220), rgb(148, 92, 244));
+                width: 100%;
+                border: none;
+                border-bottom: none;
+                outline: none;
+                border-radius: 10px;
+                padding: 15px;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            #submit:hover{
+                background-image: linear-gradient(to right, rgb(8, 88, 131), rgb(98, 75, 138));
+            }
+            .b2{
+            background-color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+        } .b2:hover{
+            background-color: red;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+         <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb( 10, 147, 220), rgb( 17, 54, 71));
+        }
+        .login{
+            background-color: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 50px;
+            border-radius: 15px;
+            color: white    ;
+        }
+        .l1{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+        .b1{
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+        }
+        button:hover{
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        .b2{
+            background-color: red;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
